@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg-bt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003099"/>
+      <stop offset="100%" stop-color="#001050"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bg-bt)"/>
+
+  <!-- Blueprint grid -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+    <line x1="0" y1="72" x2="600" y2="72"/>
+    <line x1="0" y1="144" x2="600" y2="144"/>
+    <line x1="0" y1="216" x2="600" y2="216"/>
+    <line x1="0" y1="288" x2="600" y2="288"/>
+  </g>
+
+  <!-- House/villa icon (centered at 300,200) -->
+  <g transform="translate(300,205)">
+    <!-- Roof -->
+    <polygon points="-80,-35 0,-115 80,-35" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- Chimney -->
+    <rect x="30" y="-110" width="14" height="38" rx="1" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="2"/>
+    <!-- Building body -->
+    <rect x="-80" y="-35" width="160" height="115" rx="2" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2.5"/>
+    <!-- Vertical center division -->
+    <line x1="0" y1="-35" x2="0" y2="80" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <!-- Windows left -->
+    <rect x="-65" y="-20" width="38" height="30" rx="2" fill="rgba(255,152,0,0.18)" stroke="#FF9800" stroke-width="1.5"/>
+    <line x1="-46" y1="-20" x2="-46" y2="10" stroke="#FF9800" stroke-width="1" opacity="0.6"/>
+    <line x1="-65" y1="-5" x2="-27" y2="-5" stroke="#FF9800" stroke-width="1" opacity="0.6"/>
+    <!-- Windows right -->
+    <rect x="27" y="-20" width="38" height="30" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <line x1="46" y1="-20" x2="46" y2="10" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <line x1="27" y1="-5" x2="65" y2="-5" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <!-- Door -->
+    <rect x="-20" y="32" width="40" height="48" rx="3" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="2"/>
+    <circle cx="16" cy="56" r="3" fill="#FF9800" opacity="0.7"/>
+    <!-- Ground line -->
+    <line x1="-110" y1="80" x2="110" y2="80" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <!-- Scaffolding right -->
+    <line x1="90" y1="80" x2="90" y2="-35" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <line x1="110" y1="80" x2="110" y2="-35" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <line x1="90" y1="20" x2="110" y2="20" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <line x1="90" y1="-10" x2="110" y2="-10" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <line x1="90" y1="-35" x2="110" y2="-35" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+    <!-- Scaffold planks -->
+    <rect x="86" y="16" width="28" height="5" rx="1" fill="rgba(255,152,0,0.4)" stroke="#FF9800" stroke-width="1"/>
+    <rect x="86" y="-14" width="28" height="5" rx="1" fill="rgba(255,152,0,0.4)" stroke="#FF9800" stroke-width="1"/>
+  </g>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="362" width="600" height="88" fill="rgba(0,0,0,0.52)"/>
+  <rect x="0" y="362" width="5" height="88" fill="#FF9800"/>
+  <text x="22" y="390" fill="#FF9800" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="3">BÂTIMENT</text>
+  <text x="22" y="416" fill="rgba(255,255,255,0.5)" font-family="monospace" font-size="10">Photo de réalisation à intégrer</text>
+  <text x="578" y="416" text-anchor="end" fill="rgba(255,152,0,0.45)" font-family="monospace" font-size="10" letter-spacing="1">NCE SARL</text>
+</svg>

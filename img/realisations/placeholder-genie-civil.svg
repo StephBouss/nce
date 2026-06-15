@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bg-gc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#002B8A"/>
+      <stop offset="100%" stop-color="#000D40"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#bg-gc)"/>
+
+  <!-- Blueprint grid -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="360"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="300" y1="0" x2="300" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="500" y1="0" x2="500" y2="360"/>
+    <line x1="0" y1="72" x2="600" y2="72"/>
+    <line x1="0" y1="144" x2="600" y2="144"/>
+    <line x1="0" y1="216" x2="600" y2="216"/>
+    <line x1="0" y1="288" x2="600" y2="288"/>
+  </g>
+
+  <!-- Building + crane (centered at 295,195) -->
+  <g transform="translate(295,195)">
+    <!-- Building body -->
+    <rect x="-60" y="-85" width="120" height="160" rx="2" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2.5"/>
+    <line x1="-20" y1="-85" x2="-20" y2="75" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <line x1="20" y1="-85" x2="20" y2="75" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <line x1="-60" y1="-28" x2="60" y2="-28" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <line x1="-60" y1="22" x2="60" y2="22" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <!-- Windows top floor — orange/lit -->
+    <rect x="-48" y="-72" width="18" height="14" rx="1" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.5"/>
+    <rect x="-9" y="-72" width="18" height="14" rx="1" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.5"/>
+    <rect x="30" y="-72" width="18" height="14" rx="1" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.5"/>
+    <!-- Windows mid floor -->
+    <rect x="-48" y="-20" width="18" height="14" rx="1" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <rect x="-9" y="-20" width="18" height="14" rx="1" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <rect x="30" y="-20" width="18" height="14" rx="1" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <!-- Door -->
+    <rect x="-13" y="32" width="26" height="43" rx="2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/>
+    <line x1="0" y1="32" x2="0" y2="75" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+    <!-- Ground -->
+    <line x1="-90" y1="75" x2="165" y2="75" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+    <!-- Crane mast -->
+    <line x1="80" y1="75" x2="80" y2="-65" stroke="#FF9800" stroke-width="2.5"/>
+    <!-- Crane jib -->
+    <line x1="80" y1="-65" x2="155" y2="-65" stroke="#FF9800" stroke-width="2.5"/>
+    <!-- Counter jib -->
+    <line x1="80" y1="-65" x2="55" y2="-48" stroke="#FF9800" stroke-width="1.5"/>
+    <!-- Hoist ropes -->
+    <line x1="115" y1="-65" x2="115" y2="-32" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="155" y1="-65" x2="155" y2="-28" stroke="#FF9800" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <!-- Hook -->
+    <circle cx="115" cy="-26" r="5" fill="none" stroke="#FF9800" stroke-width="1.5"/>
+  </g>
+
+  <!-- Bottom strip -->
+  <rect x="0" y="362" width="600" height="88" fill="rgba(0,0,0,0.52)"/>
+  <rect x="0" y="362" width="5" height="88" fill="#FF9800"/>
+  <text x="22" y="390" fill="#FF9800" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="3">GÉNIE CIVIL</text>
+  <text x="22" y="416" fill="rgba(255,255,255,0.5)" font-family="monospace" font-size="10">Photo de réalisation à intégrer</text>
+  <text x="578" y="416" text-anchor="end" fill="rgba(255,152,0,0.45)" font-family="monospace" font-size="10" letter-spacing="1">NCE SARL</text>
+</svg>
