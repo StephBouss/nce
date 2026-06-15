@@ -1,0 +1,76 @@
+/* ============================================================
+   NCE SARL — CSS Custom Properties
+   Charte graphique MAI 2026
+   ============================================================ */
+
+:root {
+  /* ── Palette principale ── */
+  --bleu-nuit:    #002B8A;
+  --bleu-royal:   #1D4FB3;
+  --bleu-acier:   #5D86D6;
+  --orange-vif:   #FF9800;
+  --orange-dore:  #F5A623;
+  --blanc:        #FFFFFF;
+  --gris-beton:   #B7B7B7;
+  --noir-profond: #0A0A0A;
+  --gris-clair:   #F4F6FA;
+  --gris-fonce:   #2A2F3A;
+
+  /* ── Typographie ── */
+  --font-title: 'Exo 2', sans-serif;
+  --font-body:  'Montserrat', sans-serif;
+
+  --fs-hero:   clamp(2rem, 5vw, 4rem);
+  --fs-h2:     clamp(1.6rem, 3vw, 2.4rem);
+  --fs-h3:     clamp(1.2rem, 2vw, 1.5rem);
+  --fs-body:   clamp(0.95rem, 1.5vw, 1.05rem);
+  --fs-label:  0.85rem;
+  --fs-small:  0.78rem;
+
+  /* ── Espacement ── */
+  --sp-xs:  0.5rem;
+  --sp-sm:  1rem;
+  --sp-md:  1.5rem;
+  --sp-lg:  2rem;
+  --sp-xl:  3rem;
+  --sp-xxl: 5rem;
+
+  /* ── Bordures & rayons ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 50%;
+
+  /* ── Ombres ── */
+  --shadow-sm: 0 2px 8px  rgba(0, 43, 138, 0.08);
+  --shadow-md: 0 4px 20px rgba(0, 43, 138, 0.12);
+  --shadow-lg: 0 8px 40px rgba(0, 43, 138, 0.18);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.07);
+
+  /* ── Transitions ── */
+  --tr-fast: 0.18s ease;
+  --tr-base: 0.3s ease;
+  --tr-slow: 0.5s ease;
+
+  /* ── Layout ── */
+  --container-max: 1280px;
+  --container-pad: clamp(1rem, 4vw, 2rem);
+
+  /* ── Header ── */
+  --header-h: 80px;
+  --header-h-mobile: 64px;
+
+  /* ── Dégradés ── */
+  --grad-hero: linear-gradient(155deg, #002B8A 0%, #001565 55%, #0A0A0A 100%);
+  --grad-cta:  linear-gradient(135deg, #002B8A 0%, #1D4FB3 100%);
+  --grad-orange: linear-gradient(90deg, #FF9800, #F5A623);
+}
+
+/* ── Breakpoints (commentaires) ──
+   xs  : < 480px
+   sm  : ≥ 480px
+   md  : ≥ 768px
+   lg  : ≥ 1024px
+   xl  : ≥ 1280px
+   ──────────────────────────────── */
