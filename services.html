@@ -112,20 +112,62 @@
 
           <div class="service-block__visual"
                style="background: linear-gradient(135deg, #002B8A, #1D4FB3);">
-            <div class="service-block__icon-wrap">
-              <div class="service-block__icon-bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"
-                     viewBox="0 0 24 24" fill="none" stroke="#FF9800"
-                     stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
-                     aria-hidden="true">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                  <polyline points="9 22 9 12 15 12 15 22"/>
-                </svg>
-              </div>
-              <span style="color:rgba(255,255,255,0.5);font-size:.78rem;text-align:center;">
-                Photo à ajouter<br><small>img/hero/service-achat.jpg</small>
-              </span>
-            </div>
+            <!-- Placeholder illustré : Achat — Vente -->
+            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none"
+                 preserveAspectRatio="xMidYMid meet" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg">
+              <!-- Grille blueprint subtile -->
+              <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+                <line x1="0" y1="75"  x2="400" y2="75"/><line x1="0" y1="150" x2="400" y2="150"/>
+                <line x1="0" y1="225" x2="400" y2="225"/>
+                <line x1="100" y1="0" x2="100" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/>
+                <line x1="300" y1="0" x2="300" y2="300"/>
+              </g>
+              <!-- MAISON flottante (gauche) -->
+              <g fill="none" stroke="rgba(255,255,255,0.82)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+                <animateTransform attributeName="transform" type="translate"
+                  values="0,0;0,-9;0,0" dur="3.8s" repeatCount="indefinite" calcMode="spline"
+                  keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+                <!-- Toit -->
+                <polygon points="55,140 128,72 200,140"/>
+                <!-- Corps -->
+                <rect x="72" y="140" width="112" height="88" rx="2"/>
+                <!-- Fenêtre gauche — orange/allumée -->
+                <rect x="84" y="153" width="28" height="22" rx="2" fill="rgba(255,152,0,0.22)" stroke="#FF9800" stroke-width="2.2"/>
+                <!-- Fenêtre droite -->
+                <rect x="156" y="153" width="28" height="22" rx="2" fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+                <!-- Porte -->
+                <rect x="112" y="180" width="32" height="48" rx="3"/>
+                <circle cx="140" cy="205" r="3.5" fill="#FF9800" stroke="none"/>
+                <!-- Cheminée -->
+                <rect x="150" y="60" width="14" height="32" rx="1"/>
+              </g>
+              <!-- Flèches d'échange (centre) -->
+              <g stroke="rgba(255,255,255,0.38)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M212,132 Q228,118 246,128"/>
+                <polyline points="238,119 246,128 238,135"/>
+                <path d="M246,172 Q230,186 212,176"/>
+                <polyline points="218,167 212,176 220,183"/>
+              </g>
+              <!-- CLÉ oscillante (droite) -->
+              <g fill="none" stroke="rgba(255,152,0,0.82)" stroke-width="3.5" stroke-linecap="round">
+                <animateTransform attributeName="transform" type="rotate"
+                  values="-9 308 105;9 308 105;-9 308 105" dur="4.2s" repeatCount="indefinite"
+                  calcMode="spline" keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+                <!-- Anneau -->
+                <circle cx="308" cy="105" r="30"/>
+                <circle cx="308" cy="105" r="15" stroke="rgba(255,152,0,0.38)"/>
+                <!-- Tige -->
+                <line x1="308" y1="135" x2="308" y2="218"/>
+                <!-- Dents -->
+                <line x1="308" y1="170" x2="326" y2="170"/>
+                <line x1="308" y1="188" x2="326" y2="188"/>
+                <line x1="308" y1="205" x2="320" y2="205"/>
+              </g>
+              <!-- Label -->
+              <text x="200" y="286" text-anchor="middle" fill="rgba(255,255,255,0.2)"
+                    font-family="sans-serif" font-size="10" letter-spacing="3">ACHAT · VENTE · IMMOBILIER</text>
+            </svg>
           </div>
 
           <div class="service-block__content">
@@ -192,21 +234,82 @@
 
           <div class="service-block__visual"
                style="background: linear-gradient(135deg, #1D4FB3, #5D86D6);">
-            <div class="service-block__icon-wrap">
-              <div class="service-block__icon-bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"
-                     viewBox="0 0 24 24" fill="none" stroke="#FF9800"
-                     stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
-                     aria-hidden="true">
-                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
-                  <line x1="12" y1="22.08" x2="12" y2="12"/>
-                </svg>
-              </div>
-              <span style="color:rgba(255,255,255,0.5);font-size:.78rem;text-align:center;">
-                Photo à ajouter<br><small>img/hero/service-location.jpg</small>
-              </span>
-            </div>
+            <!-- Placeholder illustré : Location — Gestion -->
+            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none"
+                 preserveAspectRatio="xMidYMid meet" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg">
+              <!-- Grille -->
+              <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+                <line x1="0" y1="75"  x2="400" y2="75"/><line x1="0" y1="150" x2="400" y2="150"/>
+                <line x1="0" y1="225" x2="400" y2="225"/>
+                <line x1="100" y1="0" x2="100" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/>
+                <line x1="300" y1="0" x2="300" y2="300"/>
+              </g>
+              <!-- IMMEUBLE (gauche-centre) -->
+              <rect x="90" y="22" width="148" height="240" rx="3" stroke="rgba(255,255,255,0.72)" stroke-width="2.8"/>
+              <line x1="164" y1="22" x2="164" y2="262" stroke="rgba(255,255,255,0.18)" stroke-width="1.5"/>
+              <!-- Niveaux -->
+              <line x1="90" y1="78"  x2="238" y2="78"  stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+              <line x1="90" y1="134" x2="238" y2="134" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+              <line x1="90" y1="190" x2="238" y2="190" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+              <line x1="90" y1="234" x2="238" y2="234" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+              <!-- Niveau 4 — fenêtres -->
+              <rect x="100" y="33" width="26" height="18" rx="2" fill="rgba(255,152,0,0.22)" stroke="#FF9800" stroke-width="1.8">
+                <animate attributeName="opacity" values="0.22;1;0.22" dur="3s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="174" y="33" width="26" height="18" rx="2" fill="rgba(255,152,0,0.22)" stroke="#FF9800" stroke-width="1.8">
+                <animate attributeName="opacity" values="0.22;1;0.22" dur="3s" begin="1s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="206" y="33" width="26" height="18" rx="2" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+              <!-- Niveau 3 -->
+              <rect x="100" y="90" width="26" height="18" rx="2" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"/>
+              <rect x="174" y="90" width="26" height="18" rx="2" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.8">
+                <animate attributeName="opacity" values="1;0.2;1" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="206" y="90" width="26" height="18" rx="2" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"/>
+              <!-- Niveau 2 -->
+              <rect x="100" y="146" width="26" height="18" rx="2" fill="rgba(255,152,0,0.22)" stroke="#FF9800" stroke-width="1.8">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" begin="1.5s" repeatCount="indefinite"/>
+              </rect>
+              <rect x="174" y="146" width="26" height="18" rx="2" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"/>
+              <rect x="206" y="146" width="26" height="18" rx="2" fill="rgba(255,152,0,0.22)" stroke="#FF9800" stroke-width="1.8"/>
+              <!-- RDC : entrée -->
+              <rect x="140" y="200" width="48" height="62" rx="3" stroke="rgba(255,255,255,0.55)" stroke-width="2.2"/>
+              <circle cx="182" cy="232" r="3.5" fill="#FF9800"/>
+              <!-- CLIPBOARD flottant (droite) -->
+              <g fill="none" stroke="rgba(255,255,255,0.72)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <animateTransform attributeName="transform" type="translate"
+                  values="0,0;0,-10;0,0" dur="3.3s" repeatCount="indefinite" calcMode="spline"
+                  keySplines="0.45 0.05 0.55 0.95;0.45 0.05 0.55 0.95"/>
+                <!-- Corps -->
+                <rect x="270" y="62" width="88" height="112" rx="4"/>
+                <!-- Clip -->
+                <rect x="294" y="52" width="40" height="18" rx="5" fill="rgba(255,255,255,0.12)"/>
+                <!-- Lignes de contenu -->
+                <line x1="284" y1="92"  x2="344" y2="92"/>
+                <line x1="284" y1="108" x2="338" y2="108"/>
+                <line x1="284" y1="124" x2="344" y2="124"/>
+                <line x1="284" y1="140" x2="330" y2="140"/>
+                <!-- Cases cochées -->
+                <rect x="282" y="87"  width="11" height="11" rx="1" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.5"/>
+                <rect x="282" y="103" width="11" height="11" rx="1" stroke="rgba(255,255,255,0.38)" stroke-width="1.5"/>
+                <rect x="282" y="119" width="11" height="11" rx="1" fill="rgba(255,152,0,0.2)" stroke="#FF9800" stroke-width="1.5"/>
+                <rect x="282" y="135" width="11" height="11" rx="1" stroke="rgba(255,255,255,0.38)" stroke-width="1.5"/>
+                <polyline points="284,92 287,96 295,89" stroke="#FF9800" stroke-width="1.5"/>
+                <polyline points="284,124 287,128 295,121" stroke="#FF9800" stroke-width="1.5"/>
+              </g>
+              <!-- Petite clé décoration bas-droite -->
+              <g stroke="rgba(255,152,0,0.55)" stroke-width="2" fill="none" stroke-linecap="round">
+                <circle cx="320" cy="210" r="18"/>
+                <circle cx="320" cy="210" r="9"  stroke="rgba(255,152,0,0.3)"/>
+                <line x1="320" y1="228" x2="320" y2="265"/>
+                <line x1="320" y1="244" x2="332" y2="244"/>
+                <line x1="320" y1="258" x2="330" y2="258"/>
+              </g>
+              <!-- Label -->
+              <text x="200" y="287" text-anchor="middle" fill="rgba(255,255,255,0.18)"
+                    font-family="sans-serif" font-size="10" letter-spacing="3">LOCATION · GESTION · PATRIMOINE</text>
+            </svg>
           </div>
 
           <div class="service-block__content">
@@ -272,21 +375,69 @@
 
           <div class="service-block__visual"
                style="background: linear-gradient(135deg, #002B8A, #0A0A0A);">
-            <div class="service-block__icon-wrap">
-              <div class="service-block__icon-bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"
-                     viewBox="0 0 24 24" fill="none" stroke="#FF9800"
-                     stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
-                     aria-hidden="true">
-                  <circle cx="12" cy="12" r="10"/>
-                  <line x1="12" y1="16" x2="12" y2="12"/>
-                  <line x1="12" y1="8" x2="12.01" y2="8"/>
-                </svg>
-              </div>
-              <span style="color:rgba(255,255,255,0.5);font-size:.78rem;text-align:center;">
-                Photo à ajouter<br><small>img/hero/service-conseil.jpg</small>
-              </span>
-            </div>
+            <!-- Placeholder illustré : Conseil — Expertise -->
+            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none"
+                 preserveAspectRatio="xMidYMid meet" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg">
+              <!-- Grille blueprint (thème principal, plus visible) -->
+              <g stroke="rgba(93,134,214,0.18)" stroke-width="1">
+                <line x1="0" y1="50"  x2="400" y2="50"/><line x1="0" y1="100" x2="400" y2="100"/>
+                <line x1="0" y1="150" x2="400" y2="150"/><line x1="0" y1="200" x2="400" y2="200"/>
+                <line x1="0" y1="250" x2="400" y2="250"/>
+                <line x1="50"  y1="0" x2="50"  y2="300"/><line x1="100" y1="0" x2="100" y2="300"/>
+                <line x1="150" y1="0" x2="150" y2="300"/><line x1="200" y1="0" x2="200" y2="300"/>
+                <line x1="250" y1="0" x2="250" y2="300"/><line x1="300" y1="0" x2="300" y2="300"/>
+                <line x1="350" y1="0" x2="350" y2="300"/>
+              </g>
+              <!-- PLAN DE MASSE (gauche-centre) -->
+              <g stroke="rgba(255,255,255,0.65)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <!-- Murs extérieurs -->
+                <rect x="42" y="45" width="232" height="192" rx="2"/>
+                <!-- Cloisons intérieures -->
+                <line x1="42"  y1="148" x2="168" y2="148" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+                <line x1="168" y1="45"  x2="168" y2="237" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+                <line x1="168" y1="148" x2="274" y2="148" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+                <!-- Portes en arc -->
+                <path d="M42,110 A30,30 0 0,1 72,80"  stroke="rgba(255,152,0,0.58)" stroke-width="1.8"/>
+                <path d="M168,110 A28,28 0 0,0 140,82" stroke="rgba(255,152,0,0.58)" stroke-width="1.8"/>
+                <path d="M168,190 A24,24 0 0,1 192,168" stroke="rgba(255,152,0,0.58)" stroke-width="1.8"/>
+              </g>
+              <!-- Cotes techniques (orange) -->
+              <g stroke="rgba(255,152,0,0.52)" stroke-width="1.5" fill="none" stroke-linecap="round">
+                <line x1="42"  y1="250" x2="274" y2="250"/>
+                <line x1="42"  y1="244" x2="42"  y2="256"/>
+                <line x1="274" y1="244" x2="274" y2="256"/>
+                <line x1="290" y1="45"  x2="290" y2="237"/>
+                <line x1="284" y1="45"  x2="296" y2="45"/>
+                <line x1="284" y1="237" x2="296" y2="237"/>
+              </g>
+              <text x="158" y="267" text-anchor="middle" fill="rgba(255,152,0,0.52)" font-family="monospace" font-size="10">14.50 m</text>
+              <text x="304" y="145" text-anchor="start"  fill="rgba(255,152,0,0.52)" font-family="monospace" font-size="10">9.60 m</text>
+              <!-- COMPAS rotatif (droite) -->
+              <!-- Anneau + cardinaux : statiques -->
+              <circle cx="352" cy="85" r="36" stroke="rgba(255,255,255,0.32)" stroke-width="1.8"/>
+              <text x="352" y="43"  text-anchor="middle" fill="rgba(255,255,255,0.58)" font-family="monospace" font-size="11" font-weight="bold">N</text>
+              <text x="352" y="132" text-anchor="middle" fill="rgba(255,255,255,0.3)"  font-family="monospace" font-size="10">S</text>
+              <text x="309" y="89"  text-anchor="middle" fill="rgba(255,255,255,0.3)"  font-family="monospace" font-size="10">O</text>
+              <text x="395" y="89"  text-anchor="middle" fill="rgba(255,255,255,0.3)"  font-family="monospace" font-size="10">E</text>
+              <!-- Aiguille rotative -->
+              <g>
+                <animateTransform attributeName="transform" type="rotate"
+                  from="0 352 85" to="360 352 85" dur="20s" repeatCount="indefinite"/>
+                <polygon points="352,49 347,85 352,78 357,85" fill="rgba(255,152,0,0.72)"/>
+                <polygon points="352,121 357,85 352,92 347,85" fill="rgba(255,255,255,0.28)"/>
+                <circle cx="352" cy="85" r="5" fill="rgba(255,152,0,0.85)"/>
+              </g>
+              <!-- Équerre bas-droite -->
+              <g stroke="rgba(255,255,255,0.38)" stroke-width="2" fill="none" stroke-linecap="round">
+                <line x1="312" y1="175" x2="390" y2="175"/>
+                <line x1="312" y1="175" x2="312" y2="255"/>
+                <line x1="312" y1="175" x2="362" y2="225" stroke-width="1.5" stroke-dasharray="5,3"/>
+              </g>
+              <!-- Label -->
+              <text x="200" y="287" text-anchor="middle" fill="rgba(255,255,255,0.18)"
+                    font-family="sans-serif" font-size="10" letter-spacing="3">CONSEIL · EXPERTISE · ÉTUDES</text>
+            </svg>
           </div>
 
           <div class="service-block__content">
@@ -352,22 +503,67 @@
 
           <div class="service-block__visual"
                style="background: linear-gradient(135deg, #F5A623, #FF9800);">
-            <div class="service-block__icon-wrap">
-              <div class="service-block__icon-bg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"
-                     viewBox="0 0 24 24" fill="none" stroke="#002B8A"
-                     stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"
-                     aria-hidden="true">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                  <circle cx="9" cy="7" r="4"/>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                </svg>
-              </div>
-              <span style="color:rgba(0,43,138,0.5);font-size:.78rem;text-align:center;">
-                Photo à ajouter<br><small>img/hero/service-accompagnement.jpg</small>
-              </span>
-            </div>
+            <!-- Placeholder illustré : Accompagnement sur mesure -->
+            <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none"
+                 preserveAspectRatio="xMidYMid meet" aria-hidden="true"
+                 xmlns="http://www.w3.org/2000/svg">
+              <!-- Fond : cercles concentriques discrets -->
+              <circle cx="200" cy="150" r="120" stroke="rgba(0,43,138,0.10)" stroke-width="1.5"/>
+              <circle cx="200" cy="150" r="80"  stroke="rgba(0,43,138,0.10)" stroke-width="1.5"/>
+              <circle cx="200" cy="150" r="40"  stroke="rgba(0,43,138,0.10)" stroke-width="1.5"/>
+
+              <!-- CHEMIN ANIMÉ reliant les 3 étapes -->
+              <path d="M100,150 Q150,90 200,150 Q250,210 300,150"
+                    stroke="rgba(0,43,138,0.22)" stroke-width="2.5"
+                    stroke-dasharray="7,5" fill="none"/>
+              <path d="M100,150 Q150,90 200,150 Q250,210 300,150"
+                    stroke="rgba(0,43,138,0.65)" stroke-width="2.5"
+                    stroke-dasharray="7,5" fill="none">
+                <animate attributeName="stroke-dashoffset"
+                         from="0" to="-24" dur="1.4s" repeatCount="indefinite"/>
+              </path>
+
+              <!-- ÉTAPE 1 : Concept (ampoule) -->
+              <circle cx="100" cy="150" r="32" fill="rgba(0,43,138,0.90)">
+                <animate attributeName="r" values="32;35;32" dur="2.8s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" repeatCount="indefinite"/>
+              </circle>
+              <path d="M100,135 m-9,0 a9,12 0 1,1 18,0 c0,5-4,9-4,13 l-10,0 c0-4-4-8-4-13 Z"
+                    fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+              <line x1="93" y1="148" x2="107" y2="148" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="94" y1="152" x2="106" y2="152" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+              <g stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round">
+                <line x1="100" y1="119" x2="100" y2="115"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></line>
+                <line x1="114" y1="123" x2="117" y2="120"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="0.4s" repeatCount="indefinite"/></line>
+                <line x1="86"  y1="123" x2="83"  y2="120"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></line>
+              </g>
+              <text x="100" y="175" text-anchor="middle" fill="rgba(0,43,138,0.85)" font-family="sans-serif" font-size="10" font-weight="700">CONCEPT</text>
+
+              <!-- ÉTAPE 2 : Planification (presse-papier) -->
+              <circle cx="200" cy="150" r="32" fill="rgba(0,43,138,0.90)"/>
+              <rect x="187" y="135" width="26" height="30" rx="2" fill="none" stroke="white" stroke-width="1.8"/>
+              <rect x="194" y="132" width="12" height="6" rx="2" fill="none" stroke="white" stroke-width="1.5"/>
+              <line x1="191" y1="145" x2="211" y2="145" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"><animate attributeName="x2" values="193;211;193" dur="2.2s" repeatCount="indefinite"/></line>
+              <line x1="191" y1="150" x2="211" y2="150" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"><animate attributeName="x2" values="193;211;193" dur="2.2s" begin="0.4s" repeatCount="indefinite"/></line>
+              <line x1="191" y1="155" x2="205" y2="155" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"><animate attributeName="x2" values="193;205;193" dur="2.2s" begin="0.8s" repeatCount="indefinite"/></line>
+              <text x="200" y="175" text-anchor="middle" fill="rgba(0,43,138,0.85)" font-family="sans-serif" font-size="10" font-weight="700">PLANIFICATION</text>
+
+              <!-- ÉTAPE 3 : Livraison (coche dans cercle) -->
+              <circle cx="300" cy="150" r="32" fill="rgba(0,43,138,0.90)">
+                <animate attributeName="r" values="32;35;32" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+                <animate attributeName="opacity" values="0.9;1;0.9" dur="2.8s" begin="1.4s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="300" cy="147" r="12" fill="none" stroke="white" stroke-width="2"/>
+              <polyline points="294,147 299,153 307,141" fill="none"
+                        stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <animate attributeName="opacity" values="0;1;1;0;1" dur="3.5s" repeatCount="indefinite"/>
+              </polyline>
+              <text x="300" y="175" text-anchor="middle" fill="rgba(0,43,138,0.85)" font-family="sans-serif" font-size="10" font-weight="700">LIVRAISON</text>
+
+              <!-- Label bas -->
+              <text x="200" y="293" text-anchor="middle" fill="rgba(0,43,138,0.25)"
+                    font-family="sans-serif" font-size="10" letter-spacing="3">SOLUTIONS · SUR · MESURE</text>
+            </svg>
           </div>
 
           <div class="service-block__content">
