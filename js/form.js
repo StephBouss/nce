@@ -11,7 +11,7 @@
      2. Générez une clé pour baalioud2@yahoo.fr
      3. Remplacez la valeur ci-dessous
      ─────────────────────────────────────────────────────────── */
-  const WEB3FORMS_ACCESS_KEY = 'VOTRE_CLE_WEB3FORMS_ICI';
+  const WEB3FORMS_ACCESS_KEY = '4d782c1a-c5bc-4b84-915a-5139e299b1fc';
 
   document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
