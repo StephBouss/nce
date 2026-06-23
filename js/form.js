@@ -38,7 +38,7 @@
     const form = e.target;
 
     /* Détection honeypot */
-    const honeypot = form.querySelector('.honeypot');
+    const honeypot = form.querySelector('[name="bot-field"]');
     if (honeypot && honeypot.value) {
       showSuccess(form);
       return;
@@ -113,7 +113,7 @@
     const errEl = document.getElementById('form-global-error');
     if (errEl) {
       errEl.textContent = message;
-      errEl.classList.add('visible');
+      errEl.style.display = 'block';
       errEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } else {
       alert(message);

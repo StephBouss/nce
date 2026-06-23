@@ -119,7 +119,7 @@
 
           <!-- Colonne 1 : À propos -->
           <div>
-            <img src="img/logo/logo-nce.png"
+            <img src="img/logo/logo-nce-white.png"
                  alt="NCE SARL — BTP Services &amp; Logistiques"
                  class="footer__logo"
                  width="80" height="80" loading="lazy">
